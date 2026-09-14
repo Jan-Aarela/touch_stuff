@@ -1,0 +1,70 @@
+(footprint "testi_padi_30mmx30mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf")
+	(tags "tag connect programming header pogo pins")
+	(property "Reference" "J1"
+		(at 0 5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a71aeed9-1c91-4e5b-8af9-346eb3eafe43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01"
+		(at 0 -4.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe21ec9d-59cb-43de-9a06-0faf4f443360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9a46412-8668-4a22-a5ed-a00dd9e60113")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed3ca37a-bea1-4ddb-bd79-e3a93d088ab1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "cap_pad.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" connect roundrect
+		(at 0 0)
+		(size 30 30)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "5b74103e-bb1e-4c05-9b21-50ce70dd50e1")
+	)
+	(embedded_fonts no)
+)
