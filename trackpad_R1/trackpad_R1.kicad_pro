@@ -120,8 +120,8 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -243,6 +243,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.5,
+          "drill": 1.0
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.0
         },
         {
           "diameter": 2.5,
@@ -542,7 +550,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerberit",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

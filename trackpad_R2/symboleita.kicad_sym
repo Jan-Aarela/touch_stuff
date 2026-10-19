@@ -535,4 +535,681 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "trackpad_20x12"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "TP"
+			(at 41.402 -0.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.3175)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "trackpad_20x12_0_1"
+			(rectangle
+				(start -21.59 13.97)
+				(end 34.29 -21.59)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -19.05 11.43)
+				(end 31.75 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type cross_hatch)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15.24 7.874) (xy -15.24 7.874)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "trackpad_20x12_1_1"
+			(pin input line
+				(at -17.78 16.51 270)
+				(length 2.54)
+				(name "X0"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X0"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 16.51 270)
+				(length 2.54)
+				(name "X1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 16.51 270)
+				(length 2.54)
+				(name "X2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 16.51 270)
+				(length 2.54)
+				(name "X3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 16.51 270)
+				(length 2.54)
+				(name "X4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 16.51 270)
+				(length 2.54)
+				(name "X5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 16.51 270)
+				(length 2.54)
+				(name "X6"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X6"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 16.51 270)
+				(length 2.54)
+				(name "X7"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X7"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 16.51 270)
+				(length 2.54)
+				(name "X8"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X8"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 16.51 270)
+				(length 2.54)
+				(name "X9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 16.51 270)
+				(length 2.54)
+				(name "X10"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X10"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 16.51 270)
+				(length 2.54)
+				(name "X11"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X11"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 16.51 270)
+				(length 2.54)
+				(name "X12"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X12"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 16.51 270)
+				(length 2.54)
+				(name "X13"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X13"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 16.51 270)
+				(length 2.54)
+				(name "X14"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X14"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 16.51 270)
+				(length 2.54)
+				(name "X15"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X15"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.86 16.51 270)
+				(length 2.54)
+				(name "X16"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X16"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 16.51 270)
+				(length 2.54)
+				(name "X17"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X17"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 16.51 270)
+				(length 2.54)
+				(name "X18"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X18"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 30.48 16.51 270)
+				(length 2.54)
+				(name "X19"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "X19"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 10.16 0)
+				(length 2.54)
+				(name "Y0"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y0"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 7.62 0)
+				(length 2.54)
+				(name "Y1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 5.08 0)
+				(length 2.54)
+				(name "Y2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 2.54 0)
+				(length 2.54)
+				(name "Y3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 0 0)
+				(length 2.54)
+				(name "Y4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -2.54 0)
+				(length 2.54)
+				(name "Y5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -5.08 0)
+				(length 2.54)
+				(name "Y6"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y6"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -7.62 0)
+				(length 2.54)
+				(name "Y7"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y7"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -10.16 0)
+				(length 2.54)
+				(name "Y8"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y8"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -12.7 0)
+				(length 2.54)
+				(name "Y9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -15.24 0)
+				(length 2.54)
+				(name "Y10"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y10"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -24.13 -17.78 0)
+				(length 2.54)
+				(name "Y11"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "Y11"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
