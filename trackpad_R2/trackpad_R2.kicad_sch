@@ -6466,6 +6466,16 @@
 		)
 		(uuid "1224e034-2110-4a82-8c97-17d4f5eab302")
 	)
+	(label "SX2"
+		(at 81.28 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13e78d2f-8c06-4bcd-b10b-99d1d1c6e1b2")
+	)
 	(label "RX5"
 		(at 125.73 29.21 0)
 		(effects
@@ -6505,16 +6515,6 @@
 			(justify left bottom)
 		)
 		(uuid "1d6cdfa6-3dba-4247-99b9-91462476c3b7")
-	)
-	(label "SX0"
-		(at 45.72 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "227e20f9-da2d-44ed-b319-d13be6df981e")
 	)
 	(label "3.3V"
 		(at 115.57 59.69 180)
@@ -6556,7 +6556,7 @@
 		)
 		(uuid "2a56033c-7975-487d-a593-21b2d645dc73")
 	)
-	(label "SY1"
+	(label "SY0"
 		(at 45.72 105.41 180)
 		(effects
 			(font
@@ -6615,6 +6615,16 @@
 			(justify left bottom)
 		)
 		(uuid "36f9ce06-7b86-492d-9d29-28634acdd51a")
+	)
+	(label "E2"
+		(at 45.72 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "375bb51d-4887-4a5e-808e-8425c305d2e5")
 	)
 	(label "TX4"
 		(at 109.22 119.38 180)
@@ -6836,16 +6846,6 @@
 		)
 		(uuid "5c5d0686-59ac-4d28-9f9a-223caae06d85")
 	)
-	(label "SY0"
-		(at 45.72 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c9fd2ad-9204-4bb3-a733-21f6bd7b8a8d")
-	)
 	(label "M_OUT"
 		(at 137.16 26.67 180)
 		(effects
@@ -6975,6 +6975,16 @@
 			(justify left bottom)
 		)
 		(uuid "7915ba38-b539-4cfb-ba32-8b4a50e82baf")
+	)
+	(label "SY2"
+		(at 45.72 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79bca086-30c1-4950-b521-e982f7acfd98")
 	)
 	(label "USB+"
 		(at 233.68 133.35 0)
@@ -7126,7 +7136,7 @@
 		)
 		(uuid "908b0d72-30d6-40ba-946e-c74fcc47badf")
 	)
-	(label "SX1"
+	(label "SX0"
 		(at 45.72 80.01 180)
 		(effects
 			(font
@@ -7136,7 +7146,7 @@
 		)
 		(uuid "90a88d09-4044-4edf-8206-5f9946d36edc")
 	)
-	(label "E0"
+	(label "E3"
 		(at 45.72 85.09 180)
 		(effects
 			(font
@@ -7176,7 +7186,7 @@
 		)
 		(uuid "9868911b-d7a3-459a-82e4-fce9f625ee4d")
 	)
-	(label "SX2"
+	(label "SX1"
 		(at 45.72 77.47 180)
 		(effects
 			(font
@@ -7426,7 +7436,7 @@
 		)
 		(uuid "c495f5af-8013-4ab7-8b97-96b088605720")
 	)
-	(label "E1"
+	(label "E0"
 		(at 45.72 87.63 180)
 		(effects
 			(font
@@ -7446,7 +7456,7 @@
 		)
 		(uuid "c9f02693-97e4-4a55-9245-5ca0bd2a108f")
 	)
-	(label "E2"
+	(label "E1"
 		(at 45.72 90.17 180)
 		(effects
 			(font
@@ -7566,7 +7576,7 @@
 		)
 		(uuid "ddf38ab6-1678-4d43-8164-1da02618b74b")
 	)
-	(label "SY2"
+	(label "SY1"
 		(at 45.72 102.87 180)
 		(effects
 			(font
@@ -7695,16 +7705,6 @@
 			(justify left bottom)
 		)
 		(uuid "f5d91463-a8fe-4c3c-a0c5-310b93f9255b")
-	)
-	(label "E3"
-		(at 45.72 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6200e48-4a53-4e33-9161-c9348951ce46")
 	)
 	(label "RX0"
 		(at 115.57 102.87 90)
